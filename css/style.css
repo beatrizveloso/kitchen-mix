@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: "Mulish", sans-serif;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 62px;
+    background: linear-gradient(#BC4400,#EE6112);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    padding-top: 5px;
+}
+
+.lupa img {
+    width: 25px;
+    padding-top: 12px;
+}
+
+a {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+  }
+
+  
+a:hover {
+    color: #e6bfbf;
+    transition: 0.3s all;
+}
