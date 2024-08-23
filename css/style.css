@@ -55,3 +55,7 @@ a:hover {
     color: #e6bfbf;
     transition: 0.3s all;
 }
+
+main img{
+    width: 100%;
+}
