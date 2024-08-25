@@ -17,7 +17,7 @@ body {
 header {
     width: 100%;
     height: 62px;
-    background: linear-gradient(#BC4400,#EE6112);
+    background: linear-gradient(#BC4400,#EC5500);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -71,7 +71,7 @@ main img{
     width: 1136px;
     height: 300px;
     border-radius: 30px;
-    background:linear-gradient(#EE6112, #CF7205);
+    background:linear-gradient(#CF3605, #EE6112);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,7 +80,7 @@ main img{
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
     color: white;
     font-weight: 500px;
 }
@@ -102,3 +102,17 @@ h1 {
     color: #504E4E;
 }
 
+.align-tut {
+    height: 600px;
+    background-color: #e6bfbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
