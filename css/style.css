@@ -104,7 +104,6 @@ h1 {
 
 .align-tut {
     height: 600px;
-    background-color: #e6bfbf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,4 +114,45 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+
+.tutorial h2 {
+    color: #ED4A3A;
+    font-size: 38px;
+}
+
+.tutorial h1 {
+    color: #808183;
+    font-size: 29px;
+}
+
+.card-ing {
+    width: 190px;
+    height: 190px;
+    border-radius: 12px;
+    background-color: #DBDBDB;
+    border: 2px solid #C9CFD3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-ing p {
+    font-size: 14px;
+    color: #504E4E;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.ball {
+    width: 30px;
+    height: 29px;
+    border-radius: 50px;
+    background-color: #F1F1F1;
+    border: 1.5 solid #C9CFD3;
+    margin-left: 110px;
+    margin-top: 10px;
 }
