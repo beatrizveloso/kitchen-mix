@@ -117,7 +117,8 @@ h1 {
     gap: 30px;
 }
 
-.tutorial h2 {
+.tutorial h2,
+.explore h1 {
     color: #ED4A3A;
     font-size: 38px;
 }
@@ -155,4 +156,50 @@ h1 {
     border: 1.5 solid #C9CFD3;
     margin-left: 110px;
     margin-top: 10px;
+}
+
+.section-exp {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-exp {
+    margin-top: 30px;
+    width: 380px;
+    height: 530px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px#938e8e;
+}
+
+.card-exp img{
+    width: 380px;
+}
+
+.card-exp h1{
+    color: #ED4A3A;
+    font-size: 20px;
+}
+
+.retangle {
+    margin-top: -6px;
+    width: 380px;
+    height: 9px;
+    background:linear-gradient(-90deg,#EE6112, #FFD15C);
+}
+
+.card-exp p,
+.card-exp h1{
+    margin-top: 10px;
+    margin-left: 20px;
 }
