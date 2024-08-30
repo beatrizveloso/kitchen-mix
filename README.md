@@ -5,7 +5,6 @@
 ![image](https://github.com/user-attachments/assets/84f520f8-2104-4354-b6fe-494b8d22916b)
 ![image](https://github.com/user-attachments/assets/596c697e-be6f-43b9-8c8b-3074b99b2ff4)
 ![image](https://github.com/user-attachments/assets/11c51588-84b4-4a30-a814-c3d0cac84296)
-![image](https://github.com/user-attachments/assets/1c2ec7b5-04df-44c9-a44a-ff632a13c575)
 
 
 
