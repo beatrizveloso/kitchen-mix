@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
     padding: 0;
@@ -17,7 +18,7 @@ body {
 header {
     width: 100%;
     height: 62px;
-    background: linear-gradient(#BC4400,#EC5500);
+    background: linear-gradient(#BC4400, #EC5500);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -48,15 +49,15 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 600px;
-  }
+}
 
-  
+
 a:hover {
     color: #e6bfbf;
     transition: 0.3s all;
 }
 
-main img{
+main img {
     width: 100%;
 }
 
@@ -71,7 +72,7 @@ main img{
     width: 1136px;
     height: 300px;
     border-radius: 30px;
-    background:linear-gradient(#CF3605, #EE6112);
+    background: linear-gradient(#CF3605, #EE6112);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +99,8 @@ h1 {
     align-items: center;
     gap: 20px;
 }
-.start button h1{
+
+.start button h1 {
     color: #504E4E;
 }
 
@@ -182,11 +184,11 @@ h1 {
     box-shadow: 2px 2px 2px 2px#938e8e;
 }
 
-.card-exp img{
+.card-exp img {
     width: 380px;
 }
 
-.card-exp h1{
+.card-exp h1 {
     color: #ED4A3A;
     font-size: 20px;
 }
@@ -195,11 +197,11 @@ h1 {
     margin-top: -6px;
     width: 380px;
     height: 9px;
-    background:linear-gradient(-90deg,#EE6112, #FFD15C);
+    background: linear-gradient(-90deg, #EE6112, #FFD15C);
 }
 
 .card-exp p,
-.card-exp h1{
+.card-exp h1 {
     margin-top: 10px;
     margin-left: 20px;
 }
@@ -209,3 +211,36 @@ h1 {
     height: 500px;
     background-color: #EE6112;
 }
+
+.align-faixa {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.align-faixa h1 {
+    color: black;
+    font-size: 24px;
+}
+
+.align-faixa p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    width: 270px;
+    height: 380px;
+    border-radius: 20px;
+    background-color: white;
+}
+
