@@ -3,7 +3,6 @@
 ![image](https://github.com/user-attachments/assets/91fab8eb-f6e1-4b3d-a8ad-dac6d3030c41)
 ![image](https://github.com/user-attachments/assets/6dc51327-932a-49df-bfc5-a2ebb1b59e84)
 ![image](https://github.com/user-attachments/assets/84f520f8-2104-4354-b6fe-494b8d22916b)
-![image](https://github.com/user-attachments/assets/5b8d13a3-f3af-4d23-a842-953b6064689e)
 
 
 
