@@ -1,1 +1,1 @@
-# Projeto de um site de culinária 
+# Projeto da faculdade de um site de culinária 
