@@ -119,6 +119,7 @@ h1 {
 .botao button img{
     width: 30px;
     margin-left: 220px;
+    margin-top: -10px;
 }
 
 .tutorial {
