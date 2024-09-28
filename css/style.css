@@ -201,7 +201,8 @@ h1 {
 
 .align-faixa h1 {
     color: black;
-    font-size: 24px;
+    font-size: 23px;
+    font-weight: 800;
 }
 
 .align-faixa p {
@@ -218,10 +219,29 @@ h1 {
     justify-content: space-around;
     align-items: center;
     margin-top: 60px;
-    width: 270px;
-    height: 380px;
+    width: 260px;
+    height: 350px;
     border-radius: 20px;
     background-color: white;
+}
+
+.card-one img {
+    width: 140px;
+    margin-top: 20px;
+}
+
+.faixa-logo {
+    width: 100%;
+    height: 65px;
+    background: #F8F4F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.faixa-logo img{
+    width: 200px;
 }
 
 footer {
