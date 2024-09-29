@@ -18,7 +18,7 @@ body {
 
 header {
     width: 100%;
-    height: 62px;
+    height: 80px;
     background: #5D5957;
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@ header {
 }
 
 .logo img {
-    width: 160px;
+    width: 180px;
     padding-top: 5px;
 }
 
@@ -65,8 +65,10 @@ header {
 
 .faixa-receitas {
     width: 100%;
-    height: 600px;
-    background-color: #FFD15C;
+    height: 500px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
 }
 
 .align-receitas {
@@ -78,14 +80,14 @@ header {
 }
 
 .card {
-    width: 330px;
+    width: 305px;
     height: 403px;
     background-color: #EEEEEE;
     border-radius: 30px 30px 30px 30px;
 }
 
 .card img {
-    width: 330px;
+    width: 305px;
 }
 
 .faixa-laranja {
@@ -95,10 +97,35 @@ header {
     margin-top: -5px;
 }
 
+.card h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.card p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #938989;
+    font-weight: 700;
+    padding-left: 10px;
+     margin-top: 8px;
+}
+
 .timer,
 .people {
     display: flex;
     gap: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.timer h1,
+.people h1 {
+    margin-left: -5px;
+    margin-top: 9px;
 }
 
 .timer img,
